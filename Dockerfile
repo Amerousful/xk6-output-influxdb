@@ -3,7 +3,7 @@ WORKDIR $GOPATH/src/go.k6.io/k6
 ADD . .
 RUN apk --no-cache add git
 RUN go install go.k6.io/xk6/cmd/xk6@latest
-RUN xk6 build --with github.com/grafana/xk6-output-influxdb=. --output /tmp/k6
+RUN xk6 build --with github.com/amerousful/xk6-output-influxdb=. --output /tmp/k6
 
 FROM alpine:3.24@sha256:f59abe656b692d901e184be3445e084786602108599d2a51d229c0f5a48c71bf
 RUN apk add --no-cache ca-certificates && \

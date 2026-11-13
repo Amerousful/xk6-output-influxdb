@@ -6,7 +6,7 @@ metadata:
   description: |
     k6 extension to output real-time test metrics to an InfluxDB 2.x database.
   annotations:
-    github.com/project-slug: grafana/xk6-output-influxdb
+    github.com/project-slug: amerousful/xk6-output-influxdb
 spec:
   type: library
   owner: group:default/k6-core

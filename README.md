@@ -1,4 +1,8 @@
 # xk6-output-influxdb
+
+> **Community-maintained fork** of [grafana/xk6-output-influxdb](https://github.com/grafana/xk6-output-influxdb).  
+> This repository is actively maintained to keep the InfluxDB v2 output extension alive, compatible with newer versions of `k6`, and available for everyone who still relies on it in production.
+
 k6 extension for [InfluxDB v2](https://docs.influxdata.com/influxdb/v2.0), it adds the support for the latest `v2` version and the compatibility API for v1.8+.
 
 #### **Why is this output not directly part of `k6` core?**
@@ -15,7 +19,7 @@ To build a `k6` binary with this extension, first ensure you have the prerequisi
 1. Build with `xk6`:
 
 ```bash
-xk6 build --with github.com/grafana/xk6-output-influxdb
+xk6 build --with github.com/amerousful/xk6-output-influxdb
 ```
 
 This will result in a `k6` binary in the current directory.
