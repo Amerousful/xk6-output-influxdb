@@ -1,8 +1,9 @@
 # xk6-output-influxdb
 
-> **Community-maintained fork** of [grafana/xk6-output-influxdb](https://github.com/grafana/xk6-output-influxdb).  
+> ℹ️ **Community-maintained fork** of [grafana/xk6-output-influxdb](https://github.com/grafana/xk6-output-influxdb).  
 > This repository is actively maintained to keep the InfluxDB v2 output extension alive, compatible with newer versions of `k6`, and available for everyone who still relies on it in production.
-
+***
+\
 k6 extension for [InfluxDB v2](https://docs.influxdata.com/influxdb/v2.0), it adds the support for the latest `v2` version and the compatibility API for v1.8+.
 
 #### **Why is this output not directly part of `k6` core?**
